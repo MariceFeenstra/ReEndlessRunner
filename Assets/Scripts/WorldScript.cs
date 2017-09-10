@@ -27,7 +27,7 @@ public class WorldScript : MonoBehaviour {
 
     void checkDirection()
     {
-        if(Mathf.Abs())
+        //if(Mathf.Abs())
     }
 
 
