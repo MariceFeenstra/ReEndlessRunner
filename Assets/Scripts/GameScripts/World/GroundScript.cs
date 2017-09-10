@@ -19,7 +19,7 @@ public class GroundScript : MonoBehaviour
     void Update()
     {
 
-        if (transform.position.z < WorldScript.World.player.transform.position.z + 60 && !hasSpawnedTile)
+        if (transform.position.z < WorldScript.World.player.transform.position.z + 80 && !hasSpawnedTile)
         {
             SpawnNextTile();
         }

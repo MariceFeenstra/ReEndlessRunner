@@ -8,6 +8,9 @@ public class WorldScript : MonoBehaviour {
     public PlayerControlScript player;
     public ControllScript Controll;
 
+    private float curvedWorldChangeDirection;
+    
+
 	// Use this for initialization
 	void Start () {
         World = this;
@@ -22,6 +25,10 @@ public class WorldScript : MonoBehaviour {
 	}
 
 
+    void checkDirection()
+    {
+        if(Mathf.Abs())
+    }
 
 
 

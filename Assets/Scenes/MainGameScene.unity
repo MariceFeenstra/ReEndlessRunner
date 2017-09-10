@@ -462,6 +462,7 @@ GameObject:
   - component: {fileID: 954868945}
   - component: {fileID: 954868947}
   - component: {fileID: 954868946}
+  - component: {fileID: 954868948}
   m_Layer: 0
   m_Name: World
   m_TagString: Untagged
@@ -507,6 +508,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1983262968}
   Controll: {fileID: 954868946}
+--- !u!114 &954868948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 954868944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2056026012, guid: 8b701c814d4d4ef4e963629b54896ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pivotPoint: {fileID: 1983262967}
+  _V_CW_Bend_X: -0.98
+  _V_CW_Bend_Y: 0
+  _V_CW_Bend_Z: 0
+  _V_CW_Bias_X: 0
+  _V_CW_Bias_Y: 0
+  _V_CW_Bias_Z: 0
 --- !u!1 &1123137726
 GameObject:
   m_ObjectHideFlags: 0
